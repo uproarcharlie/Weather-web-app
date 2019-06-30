@@ -1,0 +1,59 @@
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid blueviolet;
+    
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+header a:hover {
+    color: blueviolet;
+}
+
+.funny-image {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px
+}
+button {
+    cursor: pointer;
+    border: 1px solid blueviolet;
+    padding: 8px;
+    background: blueviolet;
+    color: #fff;
+}
